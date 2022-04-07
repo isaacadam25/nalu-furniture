@@ -116,3 +116,17 @@ a {
 .image-container img:hover {
   transform: scale(1.2);
 }
+
+/* image style ends */
+
+/* contact form styles */
+
+.contact-form {
+  width: 40rem;
+  margin: auto;
+}
+
+.contact-text {
+  font-size: 1.4rem;
+  padding-top: 3rem;
+}
