@@ -20,11 +20,11 @@ const ProductCarousel = () => {
       itemsToShow={3}
       pagination={false}
     >
-      <img src="/image1.jpg" width={190} height={200} alt="avatar" />
-      <img src="/image1.jpg" width={190} height={200} alt="avatar" />
-      <img src="/image1.jpg" width={190} height={200} alt="avatar" />
-      <img src="/image1.jpg" width={190} height={200} alt="avatar" />
-      <img src="/image1.jpg" width={190} height={200} alt="avatar" />
+      <img src="/image1.jpg" width={220} height={200} alt="avatar" />
+      <img src="/image1.jpg" width={220} height={200} alt="avatar" />
+      <img src="/image1.jpg" width={220} height={200} alt="avatar" />
+      <img src="/image1.jpg" width={220} height={200} alt="avatar" />
+      <img src="/image1.jpg" width={220} height={200} alt="avatar" />
     </Carousel>
   );
 };

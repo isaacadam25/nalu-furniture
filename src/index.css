@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 1s ease;
+  transition: all 0.8s ease-in-out;
 }
 
 a {
@@ -98,4 +98,21 @@ a {
 
 .rec.rec-arrow:hover {
   background-color: var(--primary-color);
+}
+
+/* carousel style ends */
+
+/* images style */
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  height: 30rem;
+  width: 100%;
+}
+
+.image-container img:hover {
+  transform: scale(1.2);
 }

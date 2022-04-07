@@ -6,7 +6,7 @@ import ProductCarousel from '../../app/components/ProductCarousel';
 
 const CustomDesigns = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col className="py-3">
           <h4 className="display-4 text-center py-1">Custom Designs</h4>
@@ -18,7 +18,14 @@ const CustomDesigns = () => {
       <Row>
         <Col md={3} className="d-block d-md-block d-lg-block d-none">
           <div className="right-text p-4">
-            <p>Give Us Your Design</p>
+            <h3>Design Your</h3>
+            <h3>Favorite Product</h3>
+            <h3>With Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              ipsa, libero laudantium odio earum asperiores obcaecati sapiente
+              nihil ab adipisci!
+            </p>
           </div>
         </Col>
         <Col md={9}>
