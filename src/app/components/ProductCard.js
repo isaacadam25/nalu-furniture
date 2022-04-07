@@ -8,9 +8,7 @@ const ProductCard = () => {
       <Card.ImgOverlay className="d-flex justify-content-center flex-wrap">
         <div className="product-description d-flex flex-column align-items-center">
           <h5 className="h5 text-center product-title">Sofa Bed</h5>
-          <a href="#" className="product-link d-block px-5 py-1">
-            View
-          </a>
+          <button className="product-link d-block px-5 py-1">View</button>
         </div>
       </Card.ImgOverlay>
     </Card>

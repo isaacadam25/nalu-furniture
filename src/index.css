@@ -89,3 +89,13 @@ a {
 }
 
 /* custom design ends */
+
+/* carousel styles */
+
+.rec.rec-arrow {
+  border-radius: 50%;
+}
+
+.rec.rec-arrow:hover {
+  background-color: var(--primary-color);
+}
