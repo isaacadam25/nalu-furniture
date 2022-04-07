@@ -121,12 +121,20 @@ a {
 
 /* contact form styles */
 
-.contact-form {
-  width: 40rem;
-  margin: auto;
-}
-
 .contact-text {
   font-size: 1.4rem;
   padding-top: 3rem;
+}
+
+/* contact form style ends */
+
+/* footer section styles */
+
+.footer-section {
+  background: var(--primary-color);
+}
+
+.about-us p {
+  font-size: 1.3rem;
+  text-align: justify;
 }
