@@ -43,6 +43,8 @@ a {
   min-height: 350px;
 }
 
+/* carousel image style ends */
+
 /* product card style */
 .product-image {
   min-height: 200px;
@@ -64,5 +66,26 @@ a {
 }
 
 .product-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
+
+/* product card style ends */
+
+/* custom design */
+
+.right-text {
+  background: var(--primary-color);
+  min-height: 20rem;
+  clip-path: polygon(
+    1% 0%,
+    1% 0%,
+    0% 99%,
+    0% 99%,
+    100% 100%,
+    100% 100%,
+    58% 1%,
+    58% 1%
+  );
+}
+
+/* custom design ends */
